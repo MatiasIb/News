@@ -1,0 +1,40 @@
+#topNav{
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Aplica sombra hacia abajo */
+}
+
+#logo{
+    display: inherit;
+}
+
+#logo img{
+    margin-right: 5px;
+}
+
+li {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+}
+
+li, img {
+    padding: 5px;
+}
+
+li, a {
+    color: #333;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: #ddd;
+}
+
+
+

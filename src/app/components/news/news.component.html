@@ -1,0 +1,18 @@
+
+<div id="noticiasBox">
+
+
+<div *ngFor="let new of news" id="noticiasContent">
+    <img src="{{ new.urlToImage }}" alt="" />
+  <div id="noticias">
+    <a href="{{ new.url }}">
+      <h3>{{ new.title }}</h3>
+    </a>
+    <br>
+    <h4>Fuente : {{ new.source.name }}</h4>
+    <p>Descripcion: {{ new.description }}</p>
+    <p> <strong>Autor:</strong> {{new.author}} | <strong> Dia Publicado:</strong> {{ new.publishedAt | date }}</p>
+  </div>
+  
+</div>
+</div>
